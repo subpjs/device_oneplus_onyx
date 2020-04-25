@@ -244,7 +244,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.1-service.onyx
+    android.hardware.power@1.2-service.onyx
 
 # Recovery
 PRODUCT_PACKAGES += \
