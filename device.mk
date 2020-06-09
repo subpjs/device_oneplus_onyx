@@ -139,8 +139,8 @@ PRODUCT_PACKAGES += \
     librmnetctl
 
 # Doze
-PRODUCT_PACKAGES += \
-    OnyxDoze
+#PRODUCT_PACKAGES += \
+#    OnyxDoze
 
 # DRM
 PRODUCT_PACKAGES += \
