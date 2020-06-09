@@ -21,6 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 # Inherit from onyx device
 $(call inherit-product, device/oneplus/onyx/device.mk)
 
+# B2G
+$(call inherit-product, gonk-misc/b2g.mk)
+ENABLE_DEFAULT_BOOTANIMATION := true
+
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
